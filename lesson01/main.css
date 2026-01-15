@@ -1,25 +1,36 @@
 html {
-	font-size: 22px;
+  font-size: 22px;
 }
 body {
-	background-color: #333;
-	color: whitesmoke;
+  background-color: #333;
+  color: whitesmoke;
+  width: 500px;
+  margin: 0 auto;
 }
 
+#mygoalsfortheyear {
+  background-color: #444;
+  color: #ccc;
+  border: 1px solid #444;
+  border-radius: 10px;
+}
+#mygoalsfortheyear ul a {
+  color: #1a2a40;
+}
 a {
-	color: aliceblue;
+  color: aliceblue;
 }
 
 a:visited {
-	color: lightgray;
+  color: lightgray;
 }
 
 a:hover,
 a:active {
-	color: #eee;
+  color: #eee;
 }
 img {
-	border-radius: 18px;
+  border-radius: 18px;
 }
 
 table,
@@ -27,8 +38,8 @@ tr,
 th,
 td,
 caption {
-	border: 1px solid #eee;
-	font-family: "Courier New", Courier, monospace;
-	border-collapse: collapse;
-	padding: 0.5rem;
+  border: 1px solid #eee;
+  font-family: "Courier New", Courier, monospace;
+  border-collapse: collapse;
+  padding: 0.5rem;
 }
